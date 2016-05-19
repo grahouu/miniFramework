@@ -1,0 +1,7 @@
+[
+  {
+    "name": "home",
+    "controller": "home",
+    "action": "index"
+  }
+]

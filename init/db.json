@@ -1,0 +1,17 @@
+{
+    "db_name": "test",
+    "db_user": "root",
+    "db_password": "admin",
+    "db_table": [
+        {
+            "name": "user",
+            "field": [
+                {
+                    "name": "surname",
+                    "parameters": ["required", "notNull", "unique"]
+                }
+            ]
+        }
+    ]
+
+}

@@ -1,14 +1,17 @@
 {
+    "db_driver": "mysql",
+    "db_host": "localhost",
     "db_name": "test",
     "db_user": "root",
-    "db_password": "admin",
+    "db_password": "root",
     "db_table": [
         {
             "name": "user",
             "field": [
                 {
                     "name": "surname",
-                    "parameters": ["required", "notNull", "unique"]
+                    "type": "varchar(32)",
+                    "parameters": ["NOT NULL", "UNIQUE"]
                 }
             ]
         }
